@@ -1,0 +1,63 @@
+* { margin:0; padding:0; box-sizing:border-box; } /*Global reset*/
+
+@font-face {
+    font-family: 'NameFont'; /*font of navbar*/
+    src: url('fonts/Momcake-Bold.ttf');
+}
+
+body {
+    height: 4000px;
+}
+
+
+.navbar {
+    font-family: 'NameFont';
+    overflow: hidden;
+    background-color: #5811ac;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+}
+
+.navbar #name {
+    float: left;
+    font-family: 'NameFont';
+    font-size: 7vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+
+
+
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 4vw;
+    float: right;
+    display: block;
+
+    padding-top: 3vw;
+
+    transition: color 0.3s ease;
+
+}
+.navbar a:hover {
+
+    color: #ad1010;
+
+}
+.navbar a:active {
+
+
+    color: black;
+    text-decoration: none;
+}
+
+.project {
+
+}
+
+
+
