@@ -4,6 +4,7 @@ const name = document.getElementById("name");
 const navbar = document.getElementById("resume")
 let lastKnownScrollPosition = 0;
 
+
 name.style.fontSize=7+"vw";
 navbar.style.paddingTop=3+"vw";
 
