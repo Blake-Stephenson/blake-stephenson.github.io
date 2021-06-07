@@ -13,7 +13,7 @@
 body {
     height: 4000px;
     display: grid;
-    grid-template-rows: 20vw 60px 100px 200px 200px 200px;
+    grid-template-rows: 20vw 60px 100px 200px 200px 7vw 200px;
     grid-template-columns: 1fr 100px 0px 100px 1fr;
     grid-gab: 100px;
     background: #CBF3F0;
@@ -21,6 +21,7 @@ body {
 
 
 .navbar {
+    z-index: 1;
     font-family: 'NameFont';
     overflow: hidden;
     background-color: #2EC4B6;
@@ -93,9 +94,27 @@ body {
     grid-column: 4/5;
 }
 
-.project {
+.projectbar {
+    z-index: 2;
+    font-family: 'NameFont';
+    overflow: hidden;
+    background-color: #2EC4B6;
+
+    top: 0;
+    font-size: 4vw;
+    padding-top: 1vw;
+
+    width: 100%;
     text-align: center;
     grid-row: 6/7;
+    grid-column: 1/6;
+
+}
+
+
+.project {
+    text-align: center;
+    grid-row: 7/8;
     grid-column: 1/6;
 
 }
