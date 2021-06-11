@@ -3,8 +3,9 @@ console.log("yo")
 const name = document.getElementById("name");
 const navbar = document.getElementById("resume");
 const projbar = document.getElementById("projtitle");
-let lastKnownScrollPosition = 0;
+const loadscreen = document.getElementById("loader");
 
+let lastKnownScrollPosition = 0;
 
 name.style.fontSize=7+"vw";
 navbar.style.paddingTop=3+"vw";
@@ -34,4 +35,14 @@ document.addEventListener('scroll', function(e) {
     }
 
     console.log(lastKnownScrollPosition);
+});
+
+
+function stopload() {
+    loadscreen.style.height = "0px";
+    console.log("this happen?")
+
+}
+document.addEventListener('readystatechange', () => {
+    if (document.readyState == 'complete') stopload();
 });
