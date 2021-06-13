@@ -133,20 +133,29 @@ a:hover{
     padding-left: 2vw;
 }
 
-.project a{
+#stocklink {
     text-align: center;
     font-size: 2vw;
     transition: color 0.3s ease;
     padding-left: 42%;
 }
 
-#stocklink a:hover{
-    color: #FFBF69;
+.project a {
+    color: #000000;
+    text-decoration: none;
+    padding-right: 5px;
+    padding-top: 3vw;
+    text-decoration: none;
 }
 
-.project a:visited {
+.project a:hover{
+    color: #FFBF69;
+    text-decoration: none;
+}
+
+.project a:focus {
     color: #000000;
-    text-decoration: #CBF3F0;
+    text-decoration: none;
 }
 
 
