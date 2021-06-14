@@ -14,7 +14,7 @@
 
 body {
     z-index: 1;
-    height: 2500px;
+    height: 3000px;
     display: grid;
     grid-template-rows: 20vw 60px 100px 200px 200px 7vw 300px 30vw;
     grid-template-columns: 1fr 100px 0px 100px 1fr;
@@ -168,5 +168,3 @@ a:hover{
     height: 30vw;
     width: 100%;
 }
-
-
