@@ -12,7 +12,7 @@
 
 
 
-body {
+#main {
     z-index: 1;
     height: 3000px;
     display: grid;
@@ -137,14 +137,11 @@ a:hover{
     text-align: center;
     font-size: 2vw;
     transition: color 0.3s ease;
-    padding-left: 42%;
+    padding-left: 40%;
 }
 
 .project a {
     color: #000000;
-    text-decoration: none;
-    padding-right: 5px;
-    padding-top: 3vw;
     text-decoration: none;
 }
 
@@ -167,4 +164,67 @@ a:hover{
 #model3d {
     height: 30vw;
     width: 100%;
+}
+
+
+/* stock tracker  */
+
+#smain {
+    z-index: 1;
+    height: 3000px;
+    display: grid;
+    grid-template-rows: 20vw 45vw 100px 200px;
+    grid-template-columns: 1fr 100px 0px 100px 1fr;
+    background: #CBF3F0;
+
+}
+
+.stocknavbar{
+    z-index: 2;
+    font-family: 'NameFont';
+    text-align: center;
+    font-size: 5vw;
+    background-color: #2EC4B6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    grid-row: 1/2;
+
+}
+.sproject {
+    text-align: left;
+    font-family: arial;
+    font-size: 1.5vw;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    padding-top: 15vw;
+    padding-left: 20px;
+}
+
+.schematic {
+    height: auto;
+    grid-row: 2/3;
+    grid-column: 4/6;
+    padding-left: 9vw;
+}
+
+.schematic > img {
+    width: 80%;
+    grid-row: 2/3;
+    grid-column: 4/6;
+}
+
+.code-example {
+    grid-row: 3;
+    grid-column: 1/6;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+#codeintro {
+    font-family: arial;
+    font-size: 2vw;
+    grid-row: 3/4;
+    grid-column: 1/6;
+    padding-left: 20px;
 }
