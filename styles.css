@@ -18,7 +18,7 @@
     display: grid;
     grid-template-rows: 20vw 10px 5vw 100px 150px 7vw 200px 20vw;
     grid-template-columns: 1fr 100px 0px 100px 1fr;
-    background: #CBF3F0;
+    background: #FFFFFF;
 }
 
 
@@ -26,7 +26,7 @@
     z-index: 2;
     font-family: 'NameFont';
     overflow: hidden;
-    background-color: #2EC4B6;
+    background-color: #15616D;
     position: fixed;
     top: 0;
     width: 100%;
@@ -46,7 +46,7 @@
 }
 
 .navbar a {
-    color: black;
+    color: #001524;
     text-decoration: none;
     font-size: 4vw;
     float: right;
@@ -58,12 +58,12 @@
 }
 
 a:hover{
-   color: #FFBF69;
+   color: #FF7D00;
 
 }
 
 .navbar a:active {
-    color: black;
+    color: #001524;
     text-decoration: none;
 }
 
@@ -100,7 +100,7 @@ a:hover{
     z-index: 3;
     font-family: 'NameFont';
     overflow: hidden;
-    background-color: #2EC4B6;
+    background-color: #15616D;
 
     top: 0;
     font-size: 4vw;
@@ -141,17 +141,17 @@ a:hover{
 }
 
 .project a {
-    color: #000000;
+    color: #001524;
     text-decoration: none;
 }
 
 .project a:hover{
-    color: #FFBF69;
+    color: #FF7D00;
     text-decoration: none;
 }
 
 .project a:focus {
-    color: #000000;
+    color: #001524;
     text-decoration: none;
 }
 
@@ -175,7 +175,7 @@ a:hover{
     display: grid;
     grid-template-rows: 10vw 45vw 100px 200px;
     grid-template-columns: 1fr 100px 0px 100px 1fr;
-    background: #CBF3F0;
+    background: #FFFFFF;
 
 }
 
@@ -184,7 +184,7 @@ a:hover{
     font-family: 'NameFont';
     text-align: center;
     font-size: 5vw;
-    background-color: #2EC4B6;
+    background-color: #15616D;
     position: fixed;
     top: 0;
     width: 100%;
