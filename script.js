@@ -21,7 +21,7 @@ document.addEventListener('scroll', function(e) {
         name.style.fontSize=4+"vw";
         navbar.style.paddingTop=1+"vw";
     }
-    if(lastKnownScrollPosition>565+innerWidth/5){
+    if(lastKnownScrollPosition>260+innerWidth/4){
         projbar.style.gridRowStart= 1;
         projbar.style.gridRowEnd= 2;
         projbar.style.position = "fixed" ;

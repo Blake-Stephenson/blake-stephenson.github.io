@@ -14,9 +14,9 @@
 
 #main {
     z-index: 1;
-    height: 3000px;
+    height: 100vw;
     display: grid;
-    grid-template-rows: 20vw 60px 100px 200px 200px 7vw 300px 30vw;
+    grid-template-rows: 20vw 10px 5vw 100px 150px 7vw 200px 20vw;
     grid-template-columns: 1fr 100px 0px 100px 1fr;
     background: #CBF3F0;
 }
@@ -171,9 +171,9 @@ a:hover{
 
 #smain {
     z-index: 1;
-    height: 3000px;
+    height: 2000px;
     display: grid;
-    grid-template-rows: 20vw 45vw 100px 200px;
+    grid-template-rows: 10vw 45vw 100px 200px;
     grid-template-columns: 1fr 100px 0px 100px 1fr;
     background: #CBF3F0;
 
