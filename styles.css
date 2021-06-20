@@ -46,7 +46,7 @@
 }
 
 .navbar a {
-    color: #001524;
+    color: #000000;
     text-decoration: none;
     font-size: 4vw;
     float: right;
@@ -63,7 +63,7 @@ a:hover{
 }
 
 .navbar a:active {
-    color: #001524;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -141,7 +141,7 @@ a:hover{
 }
 
 .project a {
-    color: #001524;
+    color: #000000;
     text-decoration: none;
 }
 
@@ -151,7 +151,7 @@ a:hover{
 }
 
 .project a:focus {
-    color: #001524;
+    color: #000000;
     text-decoration: none;
 }
 
