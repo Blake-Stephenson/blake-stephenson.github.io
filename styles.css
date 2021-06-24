@@ -26,7 +26,7 @@
     z-index: 2;
     font-family: 'NameFont';
     overflow: hidden;
-    background-color: #15616D;
+    background-color: #0a9396;
     position: fixed;
     top: 0;
     width: 100%;
@@ -100,7 +100,7 @@ a:hover{
     z-index: 3;
     font-family: 'NameFont';
     overflow: hidden;
-    background-color: #15616D;
+    background-color: #0a9396;
 
     top: 0;
     font-size: 4vw;
@@ -184,7 +184,7 @@ a:hover{
     font-family: 'NameFont';
     text-align: center;
     font-size: 5vw;
-    background-color: #15616D;
+    background-color: #0a9396;
     position: fixed;
     top: 0;
     width: 100%;
