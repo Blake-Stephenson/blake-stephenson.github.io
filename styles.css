@@ -175,6 +175,21 @@ a:hover{
     padding-top: 8vw;
 }
 
+.lamp a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.lamp a:hover{
+    color: #FF7D00;
+    text-decoration: none;
+}
+
+.lamp a:focus {
+    color: #000000;
+    text-decoration: none;
+}
+
 #lampdesctitle {
     text-align: center;
     font-weight: bold;
@@ -232,6 +247,24 @@ a:hover{
     grid-row: 2/3;
     grid-column: 4/6;
 }
+
+.sprojectlamp {
+    text-align: left;
+    font-family: arial;
+    font-size: 1.5vw;
+    grid-row: 2/3;
+    grid-column: 1/3;
+    padding-top: 10vw;
+    padding-left: 20px;
+}
+
+#schematic2 {
+
+    width: 100%
+
+}
+
+
 
 .code-example {
     grid-row: 3;
