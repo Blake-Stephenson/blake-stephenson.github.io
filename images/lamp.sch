@@ -96,32 +96,6 @@ Connection ~ 3450 4450
 Wire Wire Line
 	4200 4200 5000 4200
 Wire Wire Line
-	5450 3750 5450 3900
-$Comp
-L Device:R_US R2
-U 1 1 610D9559
-P 5450 3600
-F 0 "R2" H 5382 3554 50  0000 R CNN
-F 1 "1k" H 5382 3645 50  0000 R CNN
-F 2 "" V 5490 3590 50  0001 C CNN
-F 3 "~" H 5450 3600 50  0001 C CNN
-	1    5450 3600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Device:R_US R2
-U 1 1 610D8677
-P 5450 4100
-F 0 "R2" H 5382 4054 50  0000 R CNN
-F 1 "1k" H 5382 4145 50  0000 R CNN
-F 2 "" V 5490 4090 50  0001 C CNN
-F 3 "~" H 5450 4100 50  0001 C CNN
-	1    5450 4100
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	5450 4250 5450 4900
-Wire Wire Line
 	4750 3800 4750 4500
 Wire Wire Line
 	5050 3400 5050 4200
@@ -201,61 +175,22 @@ F 3 "~" H 5150 3200 50  0001 C CNN
 	1    5150 3200
 	0    1    1    0   
 $EndComp
-$Comp
-L Device:C_Small C1
-U 1 1 6115AF49
-P 4200 3600
-F 0 "C1" H 4292 3646 50  0000 L CNN
-F 1 "1μF" H 4292 3555 50  0000 L CNN
-F 2 "" H 4200 3600 50  0001 C CNN
-F 3 "~" H 4200 3600 50  0001 C CNN
-	1    4200 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_US R1
-U 1 1 61161095
-P 4150 3450
-F 0 "R1" H 4082 3404 50  0000 R CNN
-F 1 "10k" H 4082 3495 50  0000 R CNN
-F 2 "" V 4190 3440 50  0001 C CNN
-F 3 "~" H 4150 3450 50  0001 C CNN
-	1    4150 3450
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	4300 3900 5250 3900
-Connection ~ 5450 3900
-Wire Wire Line
-	5450 3900 5450 3950
-Connection ~ 5250 3900
-Wire Wire Line
-	5250 3900 5450 3900
 Wire Wire Line
 	4950 3050 4850 3050
-Connection ~ 4850 3050
-Wire Wire Line
-	4850 3050 4850 3200
 Wire Wire Line
 	5250 3050 5250 3200
 Connection ~ 5250 3200
 Wire Wire Line
 	5250 3200 5250 3900
-Connection ~ 4300 3600
-Wire Wire Line
-	4300 3600 4300 3900
 Wire Wire Line
 	4350 2700 4850 2700
 Connection ~ 3800 3000
 Wire Wire Line
 	3800 3000 4000 3000
-Connection ~ 4000 3450
 Wire Wire Line
-	4000 3450 4000 3600
-Wire Wire Line
-	4300 3450 4300 3600
-Wire Wire Line
-	3800 3300 3800 3600
+	3800 3300 3800 3550
 Wire Wire Line
 	4000 3300 4000 3450
 $Comp
@@ -269,11 +204,6 @@ F 3 "~" H 3750 2600 50  0001 C CNN
 	1    3750 2600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	4850 3200 5050 3200
-Wire Wire Line
-	4000 3600 4100 3600
-Connection ~ 4850 3200
 Wire Wire Line
 	3450 2050 4450 2050
 Connection ~ 4450 2050
@@ -310,8 +240,6 @@ Wire Wire Line
 Wire Wire Line
 	4250 2200 4650 2200
 Wire Wire Line
-	5450 2050 5450 3450
-Wire Wire Line
 	4650 2200 4650 2600
 Wire Wire Line
 	4450 2050 4450 3400
@@ -319,7 +247,7 @@ Wire Wire Line
 	3950 2600 4650 2600
 Connection ~ 4650 2600
 Wire Wire Line
-	4650 2600 4650 3200
+	4650 2600 4650 3150
 Wire Wire Line
 	3550 2600 3550 2800
 Wire Wire Line
@@ -333,7 +261,6 @@ Wire Wire Line
 Wire Wire Line
 	3450 2050 3450 3800
 Connection ~ 3450 3800
-Connection ~ 4000 3600
 Wire Wire Line
 	3550 4200 3900 4200
 Connection ~ 3900 4200
@@ -419,7 +346,6 @@ $EndComp
 Connection ~ 3450 4900
 Wire Wire Line
 	5450 4900 5450 5400
-Connection ~ 5450 4900
 Wire Wire Line
 	4750 5350 5100 5350
 Wire Wire Line
@@ -587,4 +513,88 @@ Wire Wire Line
 	3450 4900 3450 6150
 Wire Wire Line
 	3450 4450 3450 4900
+Connection ~ 5450 4900
+Connection ~ 5250 3900
+Wire Wire Line
+	5450 2050 5450 3450
+Wire Wire Line
+	5250 3900 5450 3900
+Wire Wire Line
+	5450 3900 5450 3950
+Connection ~ 5450 3900
+Wire Wire Line
+	5450 4250 5450 4900
+$Comp
+L Device:R_US R2
+U 1 1 610D8677
+P 5450 4100
+F 0 "R2" H 5382 4054 50  0000 R CNN
+F 1 "1k" H 5382 4145 50  0000 R CNN
+F 2 "" V 5490 4090 50  0001 C CNN
+F 3 "~" H 5450 4100 50  0001 C CNN
+	1    5450 4100
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R_US R2
+U 1 1 610D9559
+P 5450 3600
+F 0 "R2" H 5382 3554 50  0000 R CNN
+F 1 "1k" H 5382 3645 50  0000 R CNN
+F 2 "" V 5490 3590 50  0001 C CNN
+F 3 "~" H 5450 3600 50  0001 C CNN
+	1    5450 3600
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5450 3750 5450 3900
+$Comp
+L Device:R_US R1
+U 1 1 61161095
+P 4150 3450
+F 0 "R1" H 4082 3404 50  0000 R CNN
+F 1 "10k" H 4082 3495 50  0000 R CNN
+F 2 "" V 4190 3440 50  0001 C CNN
+F 3 "~" H 4150 3450 50  0001 C CNN
+	1    4150 3450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 3450 4300 3600
+Wire Wire Line
+	4300 3600 4300 3900
+Connection ~ 4300 3600
+$Comp
+L Device:C_Small C1
+U 1 1 6115AF49
+P 4200 3600
+F 0 "C1" H 4292 3646 50  0000 L CNN
+F 1 "1μF" H 4292 3555 50  0000 L CNN
+F 2 "" H 4200 3600 50  0001 C CNN
+F 3 "~" H 4200 3600 50  0001 C CNN
+	1    4200 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4100 3600 4100 3550
+Wire Wire Line
+	4100 3550 3800 3550
+Connection ~ 3800 3550
+Wire Wire Line
+	3800 3550 3800 3600
+Wire Wire Line
+	4000 3450 4000 3600
+Connection ~ 4000 3450
+Wire Wire Line
+	5050 3200 4950 3200
+Wire Wire Line
+	4950 3200 4950 3150
+Wire Wire Line
+	4950 3150 4650 3150
+Connection ~ 4650 3150
+Wire Wire Line
+	4650 3150 4650 3200
+Wire Wire Line
+	4850 3050 4850 3200
+Connection ~ 4850 3050
 $EndSCHEMATC
