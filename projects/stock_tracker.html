@@ -15,7 +15,7 @@
     <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation-bar w-nav">
         <div class="w-container">
             <a aria-current="page" class="brand-link w-nav-brand w--current">
-                <h1 class="brand-text">Lamp</h1>
+                <h1 class="brand-text">Stock Tracker</h1>
             </a>
             <nav role="navigation" class="navigation-menu w-nav-menu"><a href="../index.html" class="navigation-link w-nav-link">Home</a></nav>
             <div class="hamburger-button w-nav-button">
@@ -25,7 +25,7 @@
     </div>
     <div class="hero-section-proj centered wf-section">
         <div data-w-id="e464d218-f801-55d1-1f50-7da00b5bfb8f" class="w-container">
-            <div class="white-box transparent"><img src="../images/lamp.jpg" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 324px, 430px" height="500vw" alt="" class="fullwidth-image">
+            <div class="white-box transparent"><iframe src="https://a360.co/3glY3eE" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 324px, 430px" height="500vw" alt="" class="fullwidth-image"></iframe>
             </div>
         </div>
     </div>
@@ -33,10 +33,8 @@
         <div class="w-container">
             <div class="section-title-group">
                 <h2 class="section-heading centered">how it works</h2>
-                <div class="section-subheading center">
-
-                    The lamp uses 20awg brass wire as a frame and for the circuit. The ic's used are a 8-bit shift register and an op amp. Two op amps are used to create two clocks at about 1hz and 7hz. Diodes are used to set the duty cycle. One led is lit up and moves in
-                    a circle around the lamp.
+                <div class="section-subheading center">Using the 3 buttons on the top of the device the user can select the stocks or cryptos they would like to cycle through. The device will then search Yahoo and Binance for the current prices of the requested items and display them on the
+                    LCD display
                 </div>
             </div>
         </div>
@@ -47,10 +45,23 @@
                 <h2 class="section-heading centered white">Schematic</h2>
                 <div class="section-subheading center off-white"></div>
             </div>
-            <img src="../images/lamp_schematic.png" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 324px, 430px" alt="" class="fullwidth-image" />
+            <img src="../images/stock_tracker_schematic.png" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 324px, 430px" alt="" class="fullwidth-image" />
         </div>
     </div>
+    <div class="section wf-section">
+        <div class="w-container">
+            <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="tabs-wrapper w-tabs">
+                <div class="w-tab-content">
+                    <h2 class="section-heading centered">Python code:</h2>
 
+                    <div class="code-example">
+                        <script src="https://gist.github.com/Blake-Stephenson/32ccffafb2824de416c4398a8ae82747.js"></script>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 

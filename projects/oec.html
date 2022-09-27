@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Blake's personal website</title>
+    <meta name="author" content="Blake Henriques Stephenson">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" type="image/png" href="../images/glasses.png">
+</head>
+
+<body>
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation-bar w-nav">
+        <div class="w-container">
+            <a aria-current="page" class="brand-link w-nav-brand w--current">
+                <h1 class="brand-text">OEC 2022</h1>
+            </a>
+            <nav role="navigation" class="navigation-menu w-nav-menu"><a href="../index.html" class="navigation-link w-nav-link">Home</a></nav>
+            <div class="hamburger-button w-nav-button">
+                <div class="w-icon-nav-menu"></div>
+            </div>
+        </div>
+    </div>
+    <div class="hero-section-proj centered wf-section">
+        <div data-w-id="e464d218-f801-55d1-1f50-7da00b5bfb8f" class="w-container">
+            <div class="white-box transparent"><img src="../images/oecrobot.png" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 324px, 430px" height="500vw" alt="" class="fullwidth-image">
+            </div>
+        </div>
+    </div>
+    <div class="section wf-section">
+        <div class="w-container">
+            <div class="section-title-group">
+                <h2 class="section-heading centered">The problem</h2>
+                <div class="section-subheading center">
+                    "Package delivery has become one of the most commonly used services during COVID-19. Ideally, the delivery process would be entirely contactless, with the delivery person and customer having no in-person contact."
+
+                    <div>We needed to build a package delivery robot using the limited materials given. The robot needed to follow a line and drop the package off at three different heights.</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section accent wf-section">
+        <div class="w-container">
+            <div class="section-title-group">
+                <h2 class="section-heading centered white">The solution</h2>
+                <div class="section-subheading center off-white">
+                    The final design was able to complete the required tasks in a quick and efficient manner. Two motors drive the rear wheels, and one is used for the lifting device. Two servos set the heigh that the package will be placed at to accomadate diffent houses.
+                    Two IR sensors kept the robot on track, and Ultrasonic sensors were used to find the edge of the step and detect its height.
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="section wf-section">
+        <div class="w-container">
+            <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="tabs-wrapper w-tabs">
+                <div class="w-tab-content">
+                    <h2 class="section-heading centered">Arduino code:</h2>
+
+                    <div class="code-example">
+                        <script src="https://gist.github.com/Blake-Stephenson/1b92db879e2900b730502b96fa0e9a96.js"></script>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

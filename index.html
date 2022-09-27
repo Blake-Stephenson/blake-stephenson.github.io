@@ -1,74 +1,97 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Blake's personal website</title>
-        <meta name = "author" content = "Blake Henriques Stephenson">
-        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="styles.css">
 
-        <link rel="icon"
-              type="image/png"
-              href="images/ejiq3dZ.png">
-    </head>
+<head>
+    <meta charset="utf-8" />
+    <title>Blake's personal website</title>
+    <meta name="author" content="Blake Henriques Stephenson">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
 
-    <body id = "main">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" href="images/glasses.png">
+</head>
 
-
-        <div class = "navbar">
-            <span id = "name">Blake Henriques Stephenson</span>
-            <a id = "resume" href="resume/BHS-resume.pdf" target="_blank">Resume</a>
+<body>
+    <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="navigation-bar w-nav">
+        <div class="w-container">
+            <a aria-current="page" class="brand-link w-nav-brand w--current">
+                <h1 class="brand-text">Blake Stephenson</h1>
+            </a>
+            <nav role="navigation" class="navigation-menu w-nav-menu"><a href="resume/BHS-resume.pdf" target="_blank" class="navigation-link w-nav-link">Resume</a></nav>
+            <div class="hamburger-button w-nav-button">
+                <div class="w-icon-nav-menu" onclick="gotoResume()" target="_blank"></div>
+                <script>
+                    function gotoResume() {
+                        window.location.href = "https://blake-stephenson.com/resume/BHS-resume.pdf";
+                    }
+                </script>
+            </div>
         </div>
-
-        <div class = "quote">
-            <div>"Concentrate all your thoughts upon the work in hand.</div>
-            <div>The sun's rays do not burn until brought to a focus."</div>
-            <div>-Alexander Graham Bell</div>
+    </div>
+    <div class="hero-section centered wf-section">
+        <div data-w-id="e464d218-f801-55d1-1f50-7da00b5bfb8f" class="w-container">
+            <h1 data-ix="fade-in-bottom-page-loads" class="hero-heading">&quot;Concentrate all your thoughts upon the work in hand. The sun&#x27;s rays do not burn until brought to a focus.&quot;</h1>
+            <div data-ix="fade-in-bottom-page-loads" class="hero-subheading">-Alexander Graham Bell</div>
+            <div data-ix="fade-in-bottom-page-loads">
+                <a href="https://github.com/Blake-Stephenson/" target="_blank" class="w-inline-block"><img src="images/github.svg" loading="lazy" width="60" alt="" class="image-2" /></a>
+                <a href="https://www.linkedin.com/in/blake6/" target="_blank" class="w-inline-block"><img src="images/linkedin.svg" loading="lazy" width="60" alt="" class="image" /></a>
+            </div>
         </div>
-        <a href="https://github.com/Blake-Stephenson" target="_blank" class="logo-gh">
-            github
-        </a>
-        <a href="https://www.linkedin.com/in/blake-stephenson-51bba3154/" target="_blank" class="logo-ln">
-            linked in
-        </a>
-        <div class = "projectbar" id = "projtitle">
-            <p>Projects</p>
+    </div>
+    <div class="section wf-section">
+        <div class="w-container">
+            <div class="section-title-group">
+                <h2 class="section-heading centered">About me</h2>
+                <div class="section-subheading center">I am a third year Electrical Engineering Student at McMaster University. I enjoy building hardware projects, creating web and mobile apps, and participating in hackathons.
+                </div>
+            </div>
         </div>
-
-        <div class = "project">
-
-            <div id = "projdesctitle">Newest Project</div>
-            <br>
-            <div class="projdesc">This project is a raspberry pi based stock price tracker.</div>
-            <div class="projdesc">Using the 3 buttons on the top of the device the user can select</div>
-            <div class="projdesc">the stocks or cryptos they would like to cycle through.</div>
-            <div class="projdesc">The device will then search Yahoo and Binance for the current prices</div>
-            <div class="projdesc">of the requested items and display them on the LCD display</div>
-            <br>
-            <a id = "stocklink" href = "projects/stock-tracker.html" >Full Project</a>
+    </div>
+    <div class="section accent wf-section">
+        <div class="w-container">
+            <div class="section-title-group">
+                <h2 class="section-heading centered white">Projects</h2>
+                <div class="section-subheading center off-white"></div>
+            </div>
+            <div class="w-row">
+                <div class="w-col w-col-6">
+                    <div class="white-box transparent"><iframe src="https://a360.co/3glY3eE" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 324px, 430px" height="290vw" alt="" class="fullwidth-image"></iframe>
+                        <h3 class="white-text">Stock Tracker</h3>
+                        <p class="white-text">This project is a raspberry pi based stock price tracker.</p><a href="projects/stock_tracker.html" class="hollow-button">Learn more</a>
+                    </div>
+                </div>
+                <div class="w-col w-col-6">
+                    <div class="white-box transparent"><img src="images/oec2022.png" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 324px, 430px" alt="" class="fullwidth-image" />
+                        <h3 class="white-text">OEC 2022</h3>
+                        <p class="white-text">Participated in the 2022 Ontario Engineering Competition</p><a href="projects/oec.html" class="hollow-button all-caps">Learn more</a>
+                    </div>
+                </div>
+            </div>
+            <div class="w-row">
+                <div class="w-col w-col-6">
+                    <div class="white-box transparent"><img src="images/changeup.png" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 324px, 430px" alt="" class="fullwidth-image" />
+                        <h3 class="white-text">Change up app</h3>
+                        <p class="white-text">App made for DeltaHacks 8 Hackathon</p><a href="https://devpost.com/software/change-up" class="hollow-button">Learn more</a>
+                    </div>
+                </div>
+                <div class="w-col w-col-6">
+                    <div class="white-box transparent"><img src="images/lamp.jpg" sizes="(max-width: 479px) 85vw, (max-width: 767px) 88vw, (max-width: 991px) 324px, 430px" alt="" class="fullwidth-image" />
+                        <h3 class="white-text">Lamp</h3>
+                        <p class="white-text">An electronic wire sculpture made from brass wire which lights the led&#x27;s on the base</p><a href="projects/lamp.html" class="hollow-button all-caps">Learn more</a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </div>
+    <div class="section wf-section">
+        <div class="w-container">
+            <div data-duration-in="300" data-duration-out="100" data-current="Tab 1" data-easing="ease" class="tabs-wrapper w-tabs">
+                <div class="w-tab-content">
 
-
-        <div class = "model">
-            <iframe id = "model3d" src="https://a360.co/3glY3eE" title="project model"></iframe>
+                </div>
+            </div>
         </div>
-
-        <div class = "lamp">
-
-            <div id = "lampdesctitle">Lamp</div>
-            <br>
-            <div class="lampdesc">An electronic wire sculpture</div>
-            <div class="lampdesc">made from brass wire which lights</div>
-            <div class="lampdesc">the led's on the base</div>
-            <br>
-            <a id = "stocklink" href = "projects/lamp.html" >Full Project</a>
-        </div>
-
-        <div class = "lampimg">
-          <img id = "model3d" src="images/lamp.jpg" alt="lamp image">
-        </div>
-
-        <script src=script.js charset="UTF-8" ></script>
-    </body>
+    </div>
+</body>
 
 </html>
