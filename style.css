@@ -284,6 +284,19 @@ img {
     display: inline-block
 }
 
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers the images in the container */
+    align-items: center; /* Aligns images vertically */
+    gap: 20px; /* Optional: Adds space between the images */
+}
+
+.responsive-image {
+    flex: 1; /* Allows each image to take equal space in the container */
+    max-width: 50%; /* Each image can take up to half of the container's width */
+    height: auto; /* Maintains the aspect ratio of the images */
+}
+
 html.w-mod-touch * {
     background-attachment: scroll !important
 }
